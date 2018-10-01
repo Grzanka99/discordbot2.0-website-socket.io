@@ -1,0 +1,18 @@
+body {
+    padding: 5px;
+    font-family: Consolas, 'Courier New', monospace;
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+
+ul {
+    font-size: 1.1em;
+    list-style: none;
+}
+
+li::before {
+    content: "bot> ";
+    color: red;
+
+    
+}
