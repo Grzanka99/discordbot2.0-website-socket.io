@@ -5,13 +5,13 @@ var fs = require('fs');
 module.exports = () => {
     io.on('connection', function(socket){
         var rd = readline.createInterface({
-            input: fs.createReadStream(__dirname + '/logs/logs.txt'),
+            input: fs.createReadStream(__dirname + "/../../logs/logs.txt"),
             output: process.stdout,
             console: false
         });
 
         rd.on('line', function (line) {
-            io.emit('log', line);
+            socket.emit('log', line);
         })
     });
 };

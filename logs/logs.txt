@@ -1,0 +1,10 @@
+
+08.10.2018@21:36:49# I am ready!
+08.10.2018@21:36:53# User: WannaCry join to Ogólne
+08.10.2018@21:37:13# I am ready!
+08.10.2018@21:37:15# User: WannaCry left from Ogólne
+08.10.2018@21:37:35# I am ready!
+08.10.2018@21:37:43# User: WannaCry join to Ogólne
+08.10.2018@21:37:44# User: WannaCry left from Ogólne
+08.10.2018@21:37:46# User: WannaCry join to Ogólne
+08.10.2018@21:37:47# User: WannaCry left from Ogólne
