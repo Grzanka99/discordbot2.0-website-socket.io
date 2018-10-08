@@ -4,6 +4,7 @@ var fn = require("./fn/fn");
 var io = require("../app").io;
 var log = require("./fn/logs");
 var con = require("./fn/conn");
+var console = require("./fn/console");
 
 var client = new Discord.Client();
 module.exports = client;
@@ -11,6 +12,7 @@ module.exports = client;
 client.on("ready", () => {
     log("I am ready!");
     client.user.setActivity("Bot Admin, say ?help");
+    console();
 });
 
 try {
