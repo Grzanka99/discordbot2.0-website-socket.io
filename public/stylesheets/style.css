@@ -1,18 +1,39 @@
 body {
-    padding: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background-color: black;
+    height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 5px solid gray;
+    color: white;
+    padding: 50px;
+    font-size: 4em;
+}
+
+#console {
     font-family: Consolas, 'Courier New', monospace;
     background-color: rgb(50, 50, 50);
     color: aliceblue;
+    float: left;
+    overflow-y: scroll;
+    height: 35vh;
+    width: 100%;
 }
 
-ul {
+#console::-webkit-scrollbar {
+    display: none;
+}
+
+#messages {
     font-size: 1.1em;
     list-style: none;
 }
 
-li::before {
+#messages li::before {
     content: "bot> ";
     color: red;
-
-    
 }
