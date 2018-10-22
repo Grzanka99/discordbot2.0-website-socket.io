@@ -1,52 +1,8 @@
 
-08.10.2018@21:36:49# I am ready!
-08.10.2018@21:36:53# User: WannaCry join to Ogólne
-08.10.2018@21:37:13# I am ready!
-08.10.2018@21:37:15# User: WannaCry left from Ogólne
-08.10.2018@21:37:35# I am ready!
-08.10.2018@21:37:43# User: WannaCry join to Ogólne
-08.10.2018@21:37:44# User: WannaCry left from Ogólne
-08.10.2018@21:37:46# User: WannaCry join to Ogólne
-08.10.2018@21:37:47# User: WannaCry left from Ogólne
-08.10.2018@21:43:53# I am ready!
-08.10.2018@21:44:07# User: WannaCry join to Ogólne
-08.10.2018@21:44:08# User: WannaCry left from Ogólne
-08.10.2018@21:49:15# User: WannaCry join to Ogólne
-08.10.2018@21:49:15# User: WannaCry left from Ogólne
-08.10.2018@21:49:16# User: WannaCry join to Ogólne
-08.10.2018@21:49:16# User: WannaCry left from Ogólne
-08.10.2018@21:49:20# User: WannaCry join to Ogólne
-08.10.2018@21:49:21# User: WannaCry left from Ogólne
-08.10.2018@21:51:26# User: WannaCry join to Ogólne
-08.10.2018@21:51:30# User: WannaCry left from Ogólne
-08.10.2018@21:51:31# User: WannaCry join to Ogólne
-08.10.2018@21:51:33# User: WannaCry left from Ogólne
-08.10.2018@21:53:31# User: WannaCry join to Ogólne
-08.10.2018@21:53:33# User: WannaCry left from Ogólne
-08.10.2018@21:53:34# User: WannaCry join to Ogólne
-08.10.2018@21:53:37# User: WannaCry left from Ogólne
-08.10.2018@21:54:06# User: WannaCry join to Ogólne
-08.10.2018@21:54:08# User: WannaCry left from Ogólne
-08.10.2018@21:54:22# User: WannaCry join to Ogólne
-08.10.2018@21:54:24# User: WannaCry left from Ogólne
-10.10.2018@19:14:11# I am ready!
-10.10.2018@19:16:05# I am ready!
-11.10.2018@15:49:35# I am ready!
-11.10.2018@15:50:22# I am ready!
-11.10.2018@15:51:00# I am ready!
-11.10.2018@15:51:14# I am ready!
-11.10.2018@15:51:26# I am ready!
-11.10.2018@16:01:10# I am ready!
-11.10.2018@16:01:33# I am ready!
-11.10.2018@16:02:14# I am ready!
-11.10.2018@16:02:22# I am ready!
-11.10.2018@16:04:01# I am ready!
-11.10.2018@16:04:13# I am ready!
-11.10.2018@16:04:38# I am ready!
-11.10.2018@16:04:49# I am ready!
-11.10.2018@16:04:58# I am ready!
-11.10.2018@16:06:15# I am ready!
-11.10.2018@16:06:33# I am ready!
-11.10.2018@16:07:30# I am ready!
-11.10.2018@16:07:32# User: WannaCry join to Ogólne
-11.10.2018@16:07:35# User: WannaCry left from Ogólne
+22.10.2018@22:29:37# I am ready!
+22.10.2018@22:29:47# User: rads617 left from Ogólne
+22.10.2018@22:29:50# User: rads617 join to Ogólne
+22.10.2018@22:30:16# User: rads617 left from Ogólne
+22.10.2018@22:30:17# User: rads617 join to Ogólne
+22.10.2018@22:35:04# User: WannaCry left from Ogólne
+22.10.2018@22:35:17# User: rads617 left from Ogólne

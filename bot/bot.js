@@ -26,5 +26,4 @@ try {
     console.log(err);
 }
 
-
 client.login(auth.token);

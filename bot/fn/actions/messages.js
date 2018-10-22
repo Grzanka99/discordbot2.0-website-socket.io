@@ -20,10 +20,10 @@ module.exports = function (msg) {
 }
 
 function switchIf(msg) {
-    if (checkString(msg) == "?addRole") moderateServer.addRole(msg);
-    if (checkString(msg) == "?addMod") moderateServer.addMod(msg);
-    if (checkString(msg) == "?removeRole") moderateServer.removeRole(msg);
-    if (checkString(msg) == "?removeMod") moderateServer.removeMod(msg);
+    if (checkString(msg) === "?addRole") moderateServer.addRole(msg);
+    if (checkString(msg) === "?addMod") moderateServer.addMod(msg);
+    if (checkString(msg) === "?removeRole") moderateServer.removeRole(msg);
+    if (checkString(msg) === "?removeMod") moderateServer.removeMod(msg);
 }
 
 function checkString(msg) {

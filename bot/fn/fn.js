@@ -49,4 +49,4 @@ module.exports = {
     gCT: getCurrentTime,
     ifExist: ifExist,
     convertedTime: convertedTime
-}
+};
