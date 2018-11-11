@@ -13,7 +13,6 @@ client.on("ready", () => {
     log("I am ready!");
     client.user.setActivity("Bot Admin, say ?help");
     getFromFile();
-    require('./fn/ipAndGeo');
 });
 
 try {

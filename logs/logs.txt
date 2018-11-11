@@ -45,3 +45,11 @@
 09.11.2018@22:49:56# I am ready!
 09.11.2018@22:57:13# I am ready!
 09.11.2018@22:58:20# I am ready!
+11.11.2018@16:43:14# I am ready!
+11.11.2018@16:43:32# I am ready!
+11.11.2018@16:51:26# I am ready!
+11.11.2018@16:51:35# User: WannaCry join to Ogólne
+11.11.2018@16:51:41# User: WannaCry left from Ogólne
+11.11.2018@16:51:46# User: WannaCry join to Ogólne
+11.11.2018@16:51:49# User: WannaCry left from Ogólne
+11.11.2018@23:18:33# I am ready!

@@ -46,14 +46,14 @@ function convertedTime(secondsOnline) {
     minuty = minuty > 60 ? minuty % 60 : minuty;
 
     if(godziny !== undefined) {
-      timeResult = godziny > 9 ? godziny + " godzin " : "0" + godziny + " godzin ";
+      timeResult = godziny + " godzin ";
     }
     
     if(minuty !== undefined) {
-      timeResult += minuty > 9 ? minuty + " minut " : "0" + minuty + " minut ";
+      timeResult += minuty + " minut ";
     }
     
-    timeResult += sekundy > 9 ? sekundy + " sekund" : "0" + sekundy + " sekund";
+    timeResult += sekundy + " sekund";
     
     if(godziny > 24) {
       timeResult += ". Czyli: ";
@@ -63,14 +63,14 @@ function convertedTime(secondsOnline) {
       timeResult+= dni + " dni ";
       
       if(godziny !== undefined) {
-        timeResult += godziny > 9 ? godziny + " godzin " : "0" + godziny + " godzin ";
+        timeResult += godziny + " godzin ";
       }
       
       if(minuty !== undefined) {
-        timeResult += minuty > 9 ? minuty + " minut " : "0" + minuty + " minut ";
+        timeResult += minuty + " minut ";
       }
       
-      timeResult += sekundy > 9 ? sekundy + " sekund " : "0" + sekundy + " sekund";
+      timeResult += sekundy + " sekund";
 
     }
 
