@@ -34,14 +34,46 @@ function ifExist(userID) {
 }
 
 function convertedTime(secondsOnline) {
-    let timeResult;
+    let timeResult = "",
+        godziny,
+        minuty,
+        sekundy,
+        dni;
 
-    if (secondsOnline / 60 > 999) {
-        let minutes = Math.round(secondsOnline / 60);
-        timeResult = Math.round(minutes / 60) + " godzin";
-    } else {
-        timeResult = Math.round(secondsOnline / 60) + " minut";
+    sekundy = secondsOnline > 60 ? secondsOnline % 60 : secondsOnline;
+    minuty = secondsOnline > 60 ? Math.floor(secondsOnline / 60) : undefined;
+    godziny = minuty > 60 ? Math.floor(minuty / 60) : undefined;
+    minuty = minuty > 60 ? minuty % 60 : minuty;
+
+    if(godziny !== undefined) {
+      timeResult = godziny > 9 ? godziny + " godzin " : "0" + godziny + " godzin ";
     }
+    
+    if(minuty !== undefined) {
+      timeResult += minuty > 9 ? minuty + " minut " : "0" + minuty + " minut ";
+    }
+    
+    timeResult += sekundy > 9 ? sekundy + " sekund" : "0" + sekundy + " sekund";
+    
+    if(godziny > 24) {
+      timeResult += ". Czyli: ";
+      dni = Math.floor(godziny / 24);
+      godziny = godziny > 24 ? godziny % 24 : godziny;
+
+      timeResult+= dni + " dni ";
+      
+      if(godziny !== undefined) {
+        timeResult += godziny > 9 ? godziny + " godzin " : "0" + godziny + " godzin ";
+      }
+      
+      if(minuty !== undefined) {
+        timeResult += minuty > 9 ? minuty + " minut " : "0" + minuty + " minut ";
+      }
+      
+      timeResult += sekundy > 9 ? sekundy + " sekund " : "0" + sekundy + " sekund";
+
+    }
+
     return timeResult;
 }
 
