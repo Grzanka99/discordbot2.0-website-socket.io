@@ -10,8 +10,9 @@ body {
     box-sizing: border-box;
     border-bottom: 5px solid gray;
     color: white;
-    padding: 50px;
-    font-size: 4em;
+    padding: 15px;
+    font-size: 1.2em;
+    overflow-y: scroll;
 }
 
 #console {

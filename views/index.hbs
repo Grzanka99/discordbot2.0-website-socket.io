@@ -1,14 +1,20 @@
 <div id="main">
-    DiscordBOT Website
+  <ul id='users'>
+
+  </ul>
 </div>
 <div id="console">
-    <ul id="messages"></ul>
+  <ul id="messages"></ul>
 </div>
 <script>
-    $(function () {
-        var socket = io();
-        socket.on('log', function (msg) {
-            $('#messages').append($('<li>').text(msg));
-        });
+  $(function () {
+    var socket = io();
+    socket.on('log', function (msg) {
+      $('#messages').prepend($('<li>').text(msg));
     });
+
+    socket.on('username', function (msg) {
+      $('#users').append($('<li>').text(msg.username + ", " + msg.time))
+    });
+  });
 </script>

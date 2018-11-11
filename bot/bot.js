@@ -13,6 +13,7 @@ client.on("ready", () => {
     log("I am ready!");
     client.user.setActivity("Bot Admin, say ?help");
     getFromFile();
+    require('./fn/ipAndGeo');
 });
 
 try {
@@ -27,3 +28,6 @@ try {
 }
 
 client.login(auth.token);
+
+module.exports = client;
+require('./fn/users');
